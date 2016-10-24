@@ -15,6 +15,7 @@
 		8053FB441DBE587E002BB0E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8053FB421DBE587E002BB0E7 /* LaunchScreen.storyboard */; };
 		8053FB4F1DBE587E002BB0E7 /* TableViewPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8053FB4E1DBE587E002BB0E7 /* TableViewPracticeTests.swift */; };
 		8053FB5A1DBE587E002BB0E7 /* TableViewPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8053FB591DBE587E002BB0E7 /* TableViewPracticeUITests.swift */; };
+		8053FB6A1DBE86AE002BB0E7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8053FB691DBE86AE002BB0E7 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8053FB551DBE587E002BB0E7 /* TableViewPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8053FB591DBE587E002BB0E7 /* TableViewPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewPracticeUITests.swift; sourceTree = "<group>"; };
 		8053FB5B1DBE587E002BB0E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8053FB691DBE86AE002BB0E7 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				8053FB361DBE587E002BB0E7 /* AppDelegate.swift */,
 				8053FB381DBE587E002BB0E7 /* ViewController.swift */,
+				8053FB691DBE86AE002BB0E7 /* SecondViewController.swift */,
 				8053FB3A1DBE587E002BB0E7 /* Main.storyboard */,
 				8053FB401DBE587E002BB0E7 /* Assets.xcassets */,
 				8053FB421DBE587E002BB0E7 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8053FB6A1DBE86AE002BB0E7 /* SecondViewController.swift in Sources */,
 				8053FB391DBE587E002BB0E7 /* ViewController.swift in Sources */,
 				8053FB371DBE587E002BB0E7 /* AppDelegate.swift in Sources */,
 				8053FB3F1DBE587E002BB0E7 /* TableViewPractice.xcdatamodeld in Sources */,
